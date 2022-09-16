@@ -1,5 +1,101 @@
 
 body {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display: flex;
+flex: 1;
+margin: 0;
+flex-direction: column;
+flex-wrap:nowrap;
+height: 100vh;
+}
+
+/*  shared colours of text */
+.text_light {
+  color: #f9f9f9;
+}
+
+/* Header Section */
+.header,
+ .footer {
+  background-color: #1f2937;
+  padding: 28px 42px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
 
 }
 
+.logo {
+font-size: 24px;
+font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0; 
+  gap: 24px;
+  }
+
+a {
+  text-decoration: none;
+  color:#f9f9f9;
+  }
+
+/* Section 1 */
+
+
+
+.container_1 {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+
+.box_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 252px;
+  padding-top: 116px;
+  padding-bottom: 116px;
+}
+
+.content_1 {
+  display: flex;
+  flex-flow: column wrap;
+  width: 450px;
+  gap: 16px;
+}
+.title_1 {
+font-size: 48px;
+font-weight: bolder;
+}
+
+.subtext_1 {
+  font-size: 18px;
+  color: #E5E7EB;
+  
+}
+
+.placeholder {
+  Width: 300px;
+  height: 200px;
+  background-color: rgb(51, 54, 107);
+}
+
+button {
+background: #3882f6;
+color: #f9f9f9;
+border: none;
+border-radius: 8px;
+padding: 8px 16px;
+font-size: 18px;
+}
